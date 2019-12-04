@@ -28,4 +28,10 @@ public class Empresa {
             System.out.println("---");
         }
     }
+
+    void relatorioListaClientesETarefas() {
+        for(Cliente c : clientes) {
+            c.mostrarTarefasEncomendadas();
+        }
+    }
 }

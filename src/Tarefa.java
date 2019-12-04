@@ -11,4 +11,7 @@ public class Tarefa {
     int getDuracao() {
         return duracao;
     }
+    void mostrar() {
+        System.out.println("Descrição " + descricao);
+    }
 }
