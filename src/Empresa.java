@@ -34,4 +34,11 @@ public class Empresa {
             c.mostrarTarefasEncomendadas();
         }
     }
+
+    void mostrarRelatorioFacturacao(String mes) {
+        for(Cliente c : clientes) {
+            c.mostrarFacturacao(mes);
+        }
+    }
+
 }
